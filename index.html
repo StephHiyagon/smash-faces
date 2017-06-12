@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Rokkitt" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="col-md-offset-1 col-md-10">
+      <h1 class="rok">Smash Faces</h1>
+      <hr class="line">
+      <p class="rob">Bienvenidas al juego de Smash Faces, tu misión es poder identificar a todas tus compañeras de clase ingresando para esto su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
+    </div>
+    <div class="row col-md-offset-1 col-md-10">
+      <div class="col-md-5 padd">
+        <label for="select">Elige una sede</label>
+        <select id="select" name="">
+          <option value="" hidden>Elija una sede</option>
+          <option value="studentsLima">Lima</option>
+          <option value="studentsChile">Chile</option>
+          <option value="studentsMexico">Mexico</option>
+        </select>
+        </div>
+        <div id="puntos" class="col-md-offset-5 col-md-2 bottom">Puntos: <span>0</span> puntos
+        </div>
+    </div>
+    <div class=" row col-md-10 col-md-offset-1 gray padd">
+        <div class="col-md-5 padd">
+          <div id="coder">
+            <img src="" alt="">
+          </div>
+        </div>
+        <div class="col-md-5 flex">
+            <label for="nombre" class="white">Ingresa su nombre:</label>
+            <input type="text" name="" value="" placeholder="Nombre">
+            <div class="flex-2">
+              <button type="button" name="button" class="btn btn-warning btn-lg uppercase">Comprobar</button>
+              <div id="mensaje" class="mar-t white large"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+  <script src="js/jquery.min.js" charset="utf-8"></script>
+  <script src="js/jquerycolor2-1-2.min.js" charset="utf-8"></script>
+  <script src="js/app1.js" charset="utf-8"></script>
+</body>
+</html>
